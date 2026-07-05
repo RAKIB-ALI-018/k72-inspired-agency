@@ -8,7 +8,7 @@ const Video = () => {
         loop
         muted
         className='h-full w-full object-cover'
-       src="../public/HomeVideo.mp4"></video>
+       src="/HomeVideo.mp4"></video>
       
     </div>
   );

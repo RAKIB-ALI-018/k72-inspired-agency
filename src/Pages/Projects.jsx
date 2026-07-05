@@ -13,14 +13,14 @@ const Projects = () => {
   const container = useRef(null);
 
   let cards = [
-    { image1: '../public/ProjetsImages/1.png', image2: '../public/ProjetsImages/2.jpg' },
-    { image1: '../public/ProjetsImages/3.jpg', image2: '../public/ProjetsImages/4.jpg' },
-    { image1: '../public/ProjetsImages/5.jpg', image2: '../public/ProjetsImages/6.jpg' },
-    { image1: '../public/ProjetsImages/7.jpg', image2: '../public/ProjetsImages/8.jpg' },
-    { image1: '../public/ProjetsImages/9.jpg', image2: '../public/ProjetsImages/10.jpg' },
-    { image1: '../public/ProjetsImages/11.jpg', image2: '../public/ProjetsImages/12.jpg' },
-    { image1: '../public/ProjetsImages/13.jpg', image2: '../public/ProjetsImages/14.jpg' },
-    { image1: '../public/ProjetsImages/15.jpg', image2: '../public/ProjetsImages/16.jpg' },
+    { image1: '/ProjetsImages/1.png', image2: '/ProjetsImages/2.jpg' },
+    { image1: '/ProjetsImages/3.jpg', image2: '/ProjetsImages/4.jpg' },
+    { image1: '/ProjetsImages/5.jpg', image2: '/ProjetsImages/6.jpg' },
+    { image1: '/ProjetsImages/7.jpg', image2: '/ProjetsImages/8.jpg' },
+    { image1: '/ProjetsImages/9.jpg', image2: '/ProjetsImages/10.jpg' },
+    { image1: '/ProjetsImages/11.jpg', image2: '/ProjetsImages/12.jpg' },
+    { image1: '/ProjetsImages/13.jpg', image2: '/ProjetsImages/14.jpg' },
+    { image1: '/ProjetsImages/15.jpg', image2: '/ProjetsImages/16.jpg' },
   ]
 
   useGSAP(() => {

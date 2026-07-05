@@ -14,14 +14,14 @@ const Agence = () => {
   const imageRef2 = useRef(null);
 
   const imageArray = [
-    '../public/images/img-1.jpg',
-    '../public/images/img-2.jpg',
-    '../public/images/img-3.jpg',
-    '../public/images/img-4.jpg',
-    '../public/images/img-5.jpg',
-    '../public/images/img-6.jpg',
-    '../public/images/img-7.jpg',
-    '../public/images/img-8.jpg'
+    '/images/img-1.jpg',
+    '/images/img-2.jpg',
+    '/images/img-3.jpg',
+    '/images/img-4.jpg',
+    '/images/img-5.jpg',
+    '/images/img-6.jpg',
+    '/images/img-7.jpg',
+    '/images/img-8.jpg'
   ]
 
   const teamArray = [
@@ -91,7 +91,7 @@ const Agence = () => {
             style={{ height: '250vh' }}
           >
             <div className='sticky top-[15vw] h-[22vw] w-[16vw] rounded-3xl overflow-hidden'>
-              <img ref={imageRef} className='h-full w-full object-cover' src="../public/images/img-1.jpg" alt="" />
+              <img ref={imageRef} className='h-full w-full object-cover' src="/images/img-1.jpg" alt="" />
             </div>
           </div>
 

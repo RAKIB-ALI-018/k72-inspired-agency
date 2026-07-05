@@ -96,15 +96,15 @@ const FullScreenNav = () => {
                         <h1 className='font-[font2] text-[5vw] uppercase '>Projects</h1>
                         <div className='moveLink h-full w-full absolute flex items-center '>
                             <div onClick={() => handleClose('/projects')} className='moveX bg-[#CCFF00] items-center   flex  '>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail1-1.png" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail1-1.png" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Tout Voir</h2>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail1-2.jpg" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail1-2.jpg" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Tout Voir</h2>
                             </div>
                             <div onClick={() => handleClose('/projects')} className='moveX bg-[#CCFF00] items-center   flex  '>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail1-1.png" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail1-1.png" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Tout Voir</h2>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail1-2.jpg" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail1-2.jpg" alt="" />
                                 <h2 className=' text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Tout Voir</h2>
                             </div>
                         </div>
@@ -114,15 +114,15 @@ const FullScreenNav = () => {
                         <h1 className='font-[font2] text-[5vw] uppercase '>Agence</h1>
                         <div className='moveLink h-full w-full absolute flex items-center '>
                             <div onClick={() => handleClose('/agence')} className='moveX bg-[#CCFF00] items-center   flex  '>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail2-1.jpg" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail2-1.jpg" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Tout Savoir</h2>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail2-2.jpg" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail2-2.jpg" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Tout Savoir</h2>
                             </div>
                             <div onClick={() => handleClose('/agence')} className='moveX bg-[#CCFF00] items-center   flex  '>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail2-1.jpg" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail2-1.jpg" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Tout Savoir</h2>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail2-2.jpg" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail2-2.jpg" alt="" />
                                 <h2 className=' text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Tout Savoir</h2>
                             </div>
                         </div>
@@ -132,15 +132,15 @@ const FullScreenNav = () => {
                         <h1 className='font-[font2] text-[5vw] uppercase '>Contact</h1>
                         <div className='moveLink h-full w-full absolute flex items-center '>
                             <div className='moveX bg-[#CCFF00] items-center   flex  '>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail1-1.png" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail1-1.png" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Envoyer Un Fax</h2>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail1-2.jpg" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail1-2.jpg" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Envoyer Un Fax</h2>
                             </div>
                             <div className='moveX bg-[#CCFF00] items-center   flex  '>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail1-1.png" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail1-1.png" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Envoyer Un Fax</h2>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail1-2.jpg" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail1-2.jpg" alt="" />
                                 <h2 className=' text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Pour Envoyer Un Fax</h2>
                             </div>
                         </div>
@@ -150,15 +150,15 @@ const FullScreenNav = () => {
                         <h1 className='font-[font2] text-[5vw] uppercase '>Blogue</h1>
                         <div className='moveLink h-full w-full absolute flex items-center '>
                             <div className='moveX bg-[#CCFF00] items-center   flex  '>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail4-1.jpg" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail4-1.jpg" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Lier Les Articles</h2>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail4-2.png" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail4-2.png" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Lier Les Articles</h2>
                             </div>
                             <div className='moveX bg-[#CCFF00] items-center   flex  '>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail4-1.jpg" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail4-1.jpg" alt="" />
                                 <h2 className='  text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Lier Les Articles</h2>
-                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="../public/FullScreenNavImages/Thumbnail4-2.png" alt="" />
+                                <img className='w-[18vw] h-[6vw] object-cover rounded-full shrink-0 mr-2 ml-2' src="/FullScreenNavImages/Thumbnail4-2.png" alt="" />
                                 <h2 className=' text-black font-[font2] text-[5vw] uppercase whitespace-nowrap'>Lier Les Articles</h2>
                             </div>
                         </div>
