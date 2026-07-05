@@ -101,7 +101,7 @@ const Agence = () => {
         </div>
       </div>
 
-      <div className="section2 h-screen pt-52">
+      <div className="section2 h-dvh pt-52">
         <div className='w-full  flex gap-96 font-[font1] text-xl pl-44'>
           <div><h3>Expertise</h3></div>
           <div>
@@ -125,7 +125,7 @@ const Agence = () => {
         className="relative w-full bg-black"
         style={{ height: `${teamArray.length * 100}vh` }}
       >
-        <div className="sticky top-0 h-screen w-full overflow-hidden flex items-center">
+        <div className="sticky top-0 h-dvh w-full overflow-hidden flex items-center">
 
           <div className="h-[70vh] w-[30vw] rounded-3xl overflow-hidden ml-[8vw] shrink-0">
             <img
@@ -136,12 +136,12 @@ const Agence = () => {
             />
           </div>
 
-          <div className="relative flex-1 h-screen overflow-hidden">
+          <div className="relative flex-1 h-dvh overflow-hidden">
             <div ref={textListRef} className="w-full" style={{ height: `${teamArray.length * 100}vh` }}>
               {teamArray.map((member, i) => (
                 <div
                   key={i}
-                  className="h-screen w-full flex flex-col justify-center pl-[6vw]"
+                  className="h-dvh w-full flex flex-col justify-center pl-[6vw]"
                 >
                   <h2 className="text-[#CCFF00] uppercase font-[font2] text-[4vw] leading-none">
                     {member.name}

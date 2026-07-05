@@ -9,13 +9,13 @@ const Home = () => {
   return (
     <div>
       <Navbar/>
-      <div className='h-screen w-screen fixed'>
+      <div className='h-dvh w-screen fixed'>
         <Video />
       </div>
       <div>
         <MiddleText/>
       </div>
-      <div className='w-screen h-screen relative flex flex-col justify-between'>
+      <div className='w-screen h-dvh relative flex flex-col justify-between'>
         <TopText />
         <BottomText />
       </div>
